@@ -129,6 +129,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link  {
   padding: 8px 12px;
   color: #333;
   border-bottom: 1px solid #ccc;
+  font-size: 15px;
 }
 
 .dropdown-menu .dropdown-item:hover {
