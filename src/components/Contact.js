@@ -58,17 +58,17 @@ export const Contact = () => {
                         <form onSubmit={handleOnSubmit}>
                             <Row>
                                 <Col sm={6} className="px-1">
-                                    <input type="text" value={name}
+                                    <input type="text" required value={name}
                                         placeholder='Nome'
                                         onChange={(e) => setName(e.target.value)} />
                                 </Col>
                                 <Col sm={6} className='px-1'>
-                                    <input type="email" value={email}
+                                    <input type="email" required value={email}
                                         placeholder='Email'
                                         onChange={(e) => setEmail(e.target.value)} />
                                 </Col>
                                 <Col>
-                                    <textarea row={6} type="text" value={message}
+                                    <textarea row={6} type="text" required value={message}
                                         placeholder='Sua mensagem aqui'
                                         onChange={(e) => setMessage(e.target.value)} />
                                     <button type="submit" className="buttonSubmit"><span>Enviar</span></button>
