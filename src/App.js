@@ -7,6 +7,7 @@ import { Curso } from './components/Curso';
 import { Disciplinas } from './components/Disciplina';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { RootLayout } from './components/Analytics';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Disciplinas />
       <Contact />
       <Footer />
+      <RootLayout />
     </div>
   );
 }
