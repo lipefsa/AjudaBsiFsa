@@ -242,11 +242,10 @@ export const Disciplinas = () => {
                         <Accordion.Item eventKey="3">
                           <Accordion.Header>Probabilidade e Estatística</Accordion.Header>
                           <Accordion.Body>
-                          <strong>NECESSITO DO SEU FEEDBACK! <br />
-                            Preferência se você fez a disciplina semestre passado! <br /></strong>
-                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
-                            Como as provas são feitas e como é a dinâmica da matéria. <br />
-                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          <strong>Resumo:</strong> Assuntos como Desvio, Médias e seus diferentes tipos, distribuição de frequência, correlação e regressão linear. <br />
+                            <strong>Professora:</strong> Jailson Araujo.<br />
+                            <strong>Feedback:</strong> O professor costuma realizar trabalhos e provas a cada assunto, valores são divididos de acordo com a dificuldade. É uma 
+                            das disciplinas mais "fáceis" da área de matemática do curso. <br />
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="4">
