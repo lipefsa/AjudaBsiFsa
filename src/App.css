@@ -614,7 +614,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover {
   color: #fff;
+  border-radius: 20px;
 }
+
 .contact form button::before {
   content: "";
   background: #121212;
@@ -625,10 +627,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: 0;
   z-index: 0;
   transition: 0.3s ease-in-out;
+  border-radius: 20px;
 }
 
 .contact form button:hover::before {
   width: 100%;
+  border-radius: 20px;
 }
 
 
