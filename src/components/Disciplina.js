@@ -212,31 +212,31 @@ export const Disciplinas = () => {
                         <Accordion.Item eventKey="0">
                           <Accordion.Header>Banco de Dados I</Accordion.Header>
                           <Accordion.Body>
-                          <strong>NECESSITO DO SEU FEEDBACK! <br />
-                            Preferência se você fez a disciplina semestre passado! <br /></strong>
-                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
-                            Como as provas são feitas e como é a dinâmica da matéria. <br />
-                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          <strong>Resumo:</strong> A matéria é inicialmente introduzida por meio assuntos como álgebra relacional e modelo relacional. < br/>
+                           Posteriormente a matéria segue utilizando MySQL Workbench explicando estruturas básicas e assuntos pilares, 
+                           como os comandos básicos usados em banco e a logica para sua construção na pratica. <br />
+                            <strong>Professora:</strong> Alessa Oliveira.<br />
+                            <strong>Feedback:</strong> Aulas interativas e em laboratório,
+                             os conteúdos geralmente são cobrados por meio de atividades semanais que te fazem estudar e praticar frequentemente, te fazendo assim ter uma boa linha de aprendizado. <br />
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
                           <Accordion.Header>Estrutura de Dados</Accordion.Header>
                           <Accordion.Body>
-                          <strong>NECESSITO DO SEU FEEDBACK! <br />
-                            Preferência se você fez a disciplina semestre passado! <br /></strong>
-                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
-                            Como as provas são feitas e como é a dinâmica da matéria. <br />
-                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          <strong>Resumo:</strong> Uma matéria super importante (e difícil), pois junta muita teoria e prática. <br />
+                           Necessita de forte lógica de programação e conhecimento em alguma linguagem (que você deve adquirir em LP1 e LP2). <br />
+                           Assuntos normalmente são: listas, pilhas, filas, árvores binárias, grafos. <br /> 
+                            <strong>Professora:</strong> Ana Carolina Sokolonski.<br />
+                            <strong>Feedback:</strong> Assuntos são bem densos e não tem como escapar, não é nada impossível mas demanda dedicação e prática de algoritmos ao chegar em casa após a aula.
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
                           <Accordion.Header>Interface Homem-Máquina</Accordion.Header>
                           <Accordion.Body>
-                          <strong>NECESSITO DO SEU FEEDBACK! <br />
-                            Preferência se você fez a disciplina semestre passado! <br /></strong>
-                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
-                            Como as provas são feitas e como é a dinâmica da matéria. <br />
-                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          <strong>Resumo:</strong> Matéria que aborda a teoria do que seria o Front-End com UX/UI. <br />
+                          Faz pensar no bem estar e experiência dos usuários ao utilizar um sistema. <br />
+                            <strong>Professora:</strong> Alessa Oliveira.<br />
+                            <strong>Feedback:</strong> Disciplina tranquila e teórica. Faça as atividades solicitadas e presta atenção que não vai ter problemas. <br />
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
@@ -252,11 +252,11 @@ export const Disciplinas = () => {
                         <Accordion.Item eventKey="4">
                           <Accordion.Header>Redes de Computadores I</Accordion.Header>
                           <Accordion.Body>
-                          <strong>NECESSITO DO SEU FEEDBACK! <br />
-                            Preferência se você fez a disciplina semestre passado! <br /></strong>
-                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
-                            Como as provas são feitas e como é a dinâmica da matéria. <br />
-                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          <strong>Resumo:</strong> Uma das disciplinas mais complicadas do curso e com alta taxa de reprovação. <br />
+                          Conteúdos densos e muita teoria. Espere por assuntos como: Camadas da rede (física, enlace, transporte, aplicação, etc), comutação, colisão, padrões ethernet e outros. <br />
+                            <strong>Professor:</strong> Fernando Bulhões. <br />
+                            <strong>Feedback:</strong> Necessita de revisão na grade curricular e metodologia de ensino por parte da docência e diretoria do campus.
+                             Existem muitas reclamações dos estudantes sobre a disciplina ser "injusta". <br /> 
                           </Accordion.Body>
                         </Accordion.Item>
                       </Accordion>
@@ -290,11 +290,10 @@ export const Disciplinas = () => {
                         <Accordion.Item eventKey="2">
                           <Accordion.Header>Programação WEB</Accordion.Header>
                           <Accordion.Body>
-                          <strong>NECESSITO DO SEU FEEDBACK! <br />
-                            Preferência se você fez a disciplina semestre passado! <br /></strong>
-                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
-                            Como as provas são feitas e como é a dinâmica da matéria. <br />
-                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          <strong>Resumo:</strong> Aqui você vai aprender toda a base para criar um site completamente do zero. <br />
+                          Conceitos introdutórios de Web, HTML, CSS, Javascript, PHP. <br />
+                            <strong>Professor:</strong> Rabelo Filho. <br />
+                            <strong>Feedback:</strong> Disciplina bastante prática. Em todas as aulas você terá uma atividade pra realizar e não vai ter dificuldade com as provas e com o trabalho final se realizar todas.   <br />
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
