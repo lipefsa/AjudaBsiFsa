@@ -57,18 +57,18 @@ export const Contact = () => {
                         <h3> Quer dar sua opinião sobre alguma disciplina que está faltando? Ou talvez adicionar informações que estejam incompletas? Mande uma mensagem.</h3>
                         <form onSubmit={handleOnSubmit}>
                             <Row>
-                                <Col sm={6} className="px-1">
+                                <Col sm={6} className="nameBox">
                                     <input type="text" required value={name}
                                         placeholder='Nome'
                                         onChange={(e) => setName(e.target.value)} />
                                 </Col>
-                                <Col sm={6} className='px-1'>
+                                <Col sm={6} className='emailBox'>
                                     <input type="email" required value={email}
                                         placeholder='Email'
                                         onChange={(e) => setEmail(e.target.value)} />
                                 </Col>
                                 <Col>
-                                    <textarea row={6} type="text" required value={message}
+                                    <textarea row={6} type="text" className="messageBox" required value={message}
                                         placeholder='Sua mensagem aqui'
                                         onChange={(e) => setMessage(e.target.value)} />
                                     <button type="submit" className="buttonSubmit"><span>Enviar</span></button>
