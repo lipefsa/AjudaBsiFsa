@@ -7,7 +7,7 @@ import Modal1 from './Modal1';
 import Modal2 from './Modal2';
 import Modal3 from './Modal3';
 import logo from '../assets/img/gadsden.svg';
-import github from '../assets/img/github.svg';
+import github1 from '../assets/img/github1.svg';
 import linkedin from '../assets/img/linkedin.svg';
 import instagram from '../assets/img/instagram.svg';
 
@@ -78,7 +78,7 @@ export const NavBar = () => {
 
                     <span className="navbar-text">
                         <div className='social-icon'>
-                            <a href='hhtps://www.github.com'> <img src={github} alt="Github" /></a>
+                            <a href='hhtps://www.github.com'> <img src={github1} alt="Github" /></a>
                             <a href='https://www.linkedin.com'> <img src={linkedin} alt="Linkedin" /></a>
                             <a href='https://www.instagram.com/ifba_fsa'> <img src={instagram} alt="Instagram" /></a>
                         </div>
