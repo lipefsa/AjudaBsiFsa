@@ -77,12 +77,10 @@ export const Disciplinas = () => {
                         <Accordion.Item eventKey="3">
                           <Accordion.Header>Lógica para Computação</Accordion.Header>
                           <Accordion.Body>
-                          <strong>NECESSITO DO SEU FEEDBACK! <br />
-                            Preferência se você fez a disciplina semestre passado! <br /></strong>
-                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
-                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
-                            Como as provas são feitas e como é a dinâmica da matéria. <br />
-                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          <strong>Resumo:</strong> Pensamento lógico, tabelas verdade, proposições, validade de argumentos e equivalência lógica. <br />
+                            <strong>Professor:</strong> Jailson Araujo <br />
+                            <strong>Feedback:</strong> Não se engane por ser do 1º Semestre. Essa matéria é uma das mais importantes do curso.   <br />
+                             O que você aprender aqui vai ser aplicável em qualquer linguagem de programação e na criação de estrutura de dados e outras disciplinas daqui em diante.<br />
                           </Accordion.Body>
                         </Accordion.Item>
                       </Accordion>
