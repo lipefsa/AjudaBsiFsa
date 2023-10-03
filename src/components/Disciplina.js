@@ -65,7 +65,7 @@ export const Disciplinas = () => {
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
-                          <Accordion.Header>Introdução a Programação</Accordion.Header>
+                          <Accordion.Header>Introdução a Programação &nbsp; <strong>-  NECESSITA DE FEEDBACK!</strong></Accordion.Header>
                           <Accordion.Body>
                             <strong>NECESSITO DO SEU FEEDBACK! <br />
                             Preferência se você fez a disciplina semestre passado! <br /></strong>
@@ -93,7 +93,7 @@ export const Disciplinas = () => {
                       <div>
                         <Accordion class="accordion">
                           <Accordion.Item eventKey="0">
-                            <Accordion.Header>Cálculo II</Accordion.Header>
+                            <Accordion.Header>Cálculo II &nbsp; <strong>-  NECESSITA DE FEEDBACK!</strong></Accordion.Header>
                             <Accordion.Body>
                             <strong>NECESSITO DO SEU FEEDBACK! <br />
                             Preferência se você fez a disciplina semestre passado! <br /></strong>
@@ -103,7 +103,7 @@ export const Disciplinas = () => {
                             </Accordion.Body>
                           </Accordion.Item>
                           <Accordion.Item eventKey="1">
-                            <Accordion.Header>Linguagem de Programação I</Accordion.Header>
+                            <Accordion.Header>Linguagem de Programação I &nbsp; <strong>-  NECESSITA DE FEEDBACK!</strong></Accordion.Header>
                             <Accordion.Body>
                             <strong>NECESSITO DO SEU FEEDBACK! <br />
                             Preferência se você fez a disciplina semestre passado! <br /></strong>
@@ -113,7 +113,7 @@ export const Disciplinas = () => {
                             </Accordion.Body>
                           </Accordion.Item>
                           <Accordion.Item eventKey="2">
-                            <Accordion.Header>Matemática Discreta</Accordion.Header>
+                            <Accordion.Header>Matemática Discreta &nbsp; <strong>-  NECESSITA DE FEEDBACK!</strong></Accordion.Header>
                             <Accordion.Body>
                             <strong>NECESSITO DO SEU FEEDBACK! <br />
                             Preferência se você fez a disciplina semestre passado! <br /></strong>
@@ -123,7 +123,7 @@ export const Disciplinas = () => {
                             </Accordion.Body>
                           </Accordion.Item>
                           <Accordion.Item eventKey="3">
-                            <Accordion.Header>Organização e Arquitetura de Computadores</Accordion.Header>
+                            <Accordion.Header>Organização e Arquitetura de Computadores &nbsp; <strong>-  NECESSITA DE FEEDBACK!</strong></Accordion.Header>
                             <Accordion.Body>
                             <strong>NECESSITO DO SEU FEEDBACK! <br />
                             Preferência se você fez a disciplina semestre passado! <br /></strong>
@@ -133,7 +133,7 @@ export const Disciplinas = () => {
                             </Accordion.Body>
                           </Accordion.Item>
                           <Accordion.Item eventKey="4">
-                            <Accordion.Header>Teoria Geral da ADM</Accordion.Header>
+                            <Accordion.Header>Teoria Geral da ADM &nbsp; <strong>-  NECESSITA DE FEEDBACK!</strong></Accordion.Header>
                             <Accordion.Body>
                             <strong>NECESSITO DO SEU FEEDBACK! <br />
                             Preferência se você fez a disciplina semestre passado! <br /></strong>
@@ -152,7 +152,7 @@ export const Disciplinas = () => {
                       <div>
                         <Accordion class="accordion">
                           <Accordion.Item eventKey="0">
-                            <Accordion.Header>Álgebra Linear</Accordion.Header>
+                            <Accordion.Header>Álgebra Linear &nbsp; <strong>-  NECESSITA DE FEEDBACK!</strong></Accordion.Header>
                             <Accordion.Body>
                             <strong>NECESSITO DO SEU FEEDBACK! <br />
                             Preferência se você fez a disciplina semestre passado! <br /></strong>
@@ -162,7 +162,7 @@ export const Disciplinas = () => {
                             </Accordion.Body>
                           </Accordion.Item>
                           <Accordion.Item eventKey="1">
-                            <Accordion.Header>A.M.S</Accordion.Header>
+                            <Accordion.Header>A.M.S &nbsp; <strong>-  NECESSITA DE FEEDBACK!</strong></Accordion.Header>
                             <Accordion.Body>
                             <strong>NECESSITO DO SEU FEEDBACK! <br />
                             Preferência se você fez a disciplina semestre passado! <br /></strong>
@@ -172,7 +172,7 @@ export const Disciplinas = () => {
                             </Accordion.Body>
                           </Accordion.Item>
                           <Accordion.Item eventKey="2">
-                            <Accordion.Header>Linguagem de Programação II</Accordion.Header>
+                            <Accordion.Header>Linguagem de Programação II &nbsp; <strong>-  NECESSITA DE FEEDBACK!</strong></Accordion.Header>
                             <Accordion.Body>
                             <strong>NECESSITO DO SEU FEEDBACK! <br />
                             Preferência se você fez a disciplina semestre passado! <br /></strong>
@@ -182,7 +182,7 @@ export const Disciplinas = () => {
                             </Accordion.Body>
                           </Accordion.Item>
                           <Accordion.Item eventKey="3">
-                            <Accordion.Header>Sistemas Operacionais</Accordion.Header>
+                            <Accordion.Header>Sistemas Operacionais &nbsp; <strong>-  NECESSITA DE FEEDBACK!</strong></Accordion.Header>
                             <Accordion.Body>
                             <strong>NECESSITO DO SEU FEEDBACK! <br />
                             Preferência se você fez a disciplina semestre passado! <br /></strong>
@@ -192,7 +192,7 @@ export const Disciplinas = () => {
                             </Accordion.Body>
                           </Accordion.Item>
                           <Accordion.Item eventKey="4">
-                            <Accordion.Header>O.S.M</Accordion.Header>
+                            <Accordion.Header>O.S.M &nbsp; <strong>-  NECESSITA DE FEEDBACK!</strong></Accordion.Header>
                             <Accordion.Body>
                             <strong>NECESSITO DO SEU FEEDBACK! <br />
                             Preferência se você fez a disciplina semestre passado! <br /></strong>
@@ -296,7 +296,7 @@ export const Disciplinas = () => {
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
-                          <Accordion.Header>Redes de Computadores II</Accordion.Header>
+                          <Accordion.Header>Redes de Computadores II &nbsp; <strong>-  NECESSITA DE FEEDBACK!</strong></Accordion.Header>
                           <Accordion.Body>
                           <strong>NECESSITO DO SEU FEEDBACK! <br />
                             Preferência se você fez a disciplina semestre passado! <br /></strong>
