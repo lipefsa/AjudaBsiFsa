@@ -214,7 +214,7 @@ export const Disciplinas = () => {
                           <Accordion.Body>
                           <strong>Resumo:</strong> A matéria é inicialmente introduzida por meio assuntos como álgebra relacional e modelo relacional. < br/>
                            Posteriormente a matéria segue utilizando MySQL Workbench explicando estruturas básicas e assuntos pilares, 
-                           como os comandos básicos usados em banco e a logica para sua construção na pratica. <br />
+                           como os comandos básicos usados em banco e a lógica para sua construção na prática. <br />
                             <strong>Professora:</strong> Alessa Oliveira.<br />
                             <strong>Feedback:</strong> Aulas interativas e em laboratório,
                              os conteúdos geralmente são cobrados por meio de atividades semanais que te fazem estudar e praticar frequentemente, te fazendo assim ter uma boa linha de aprendizado. <br />
@@ -269,21 +269,20 @@ export const Disciplinas = () => {
                         <Accordion.Item eventKey="0">
                           <Accordion.Header>Banco de Dados II</Accordion.Header>
                           <Accordion.Body>
-                          <strong>NECESSITO DO SEU FEEDBACK! <br />
-                            Preferência se você fez a disciplina semestre passado! <br /></strong>
-                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
-                            Como as provas são feitas e como é a dinâmica da matéria. <br />
-                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          <strong>Resumo:</strong> A professora avança nos assuntos visto em Banco de Dados I e introduz vários novos que possibilitam o trabalho real no dia a dia em empresas com grandes quantidades de informações. < br/>
+                           Você verá: Triggers, Procedures, Views, Inner Joins avançados e outros comandos complexos. <br />
+                            <strong>Professora:</strong> Alessa Oliveira.<br />
+                            <strong>Feedback:</strong> Aulas interativas e em laboratório. Aproveite para treinar bastante e tirar dúvidas. A prova tem o costume de ser difícil. <br />
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
                           <Accordion.Header>Processo de Desenvolvimento de Software</Accordion.Header>
                           <Accordion.Body>
-                          <strong>NECESSITO DO SEU FEEDBACK! <br />
-                            Preferência se você fez a disciplina semestre passado! <br /></strong>
-                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
-                            Como as provas são feitas e como é a dinâmica da matéria. <br />
-                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          <strong>Resumo:</strong> Estudo sobre a vida de um software, seus princípios, metodologias e práticas envolvidas. <br />
+                          Assuntos como Scrum, Kanban, Requisitos Funcionais e Não-Funcionais de um sistema, além de ERP. <br />
+                            <strong>Professor:</strong> Rabelo Filho. <br />
+                            <strong>Feedback:</strong> Disciplina totalmente teórica.
+                             Em todas as aulas você terá uma atividade pra realizar e não vai ter dificuldade com as provas se realizar todas.   <br />
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
@@ -292,7 +291,8 @@ export const Disciplinas = () => {
                           <strong>Resumo:</strong> Aqui você vai aprender toda a base para criar um site completamente do zero. <br />
                           Conceitos introdutórios de Web, HTML, CSS, Javascript, PHP. <br />
                             <strong>Professor:</strong> Rabelo Filho. <br />
-                            <strong>Feedback:</strong> Disciplina bastante prática. Em todas as aulas você terá uma atividade pra realizar e não vai ter dificuldade com as provas e com o trabalho final se realizar todas.   <br />
+                            <strong>Feedback:</strong> Disciplina bastante prática.
+                             Em todas as aulas você terá uma atividade pra realizar e não vai ter dificuldade com as provas e com o trabalho final se realizar todas.   <br />
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
