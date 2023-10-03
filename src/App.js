@@ -8,6 +8,7 @@ import { Disciplinas } from './components/Disciplina';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { RootLayout } from './components/Analytics';
+import reportWebVitals from './reportWebVitals';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Contact />
       <Footer />
       <RootLayout />
+      <reportWebVitals />
     </div>
   );
 }

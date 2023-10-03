@@ -54,8 +54,7 @@ export const Banner = () => {
                                 <div className={isVisible ? 'animate__animated animate__fadeIn' : ""}>
                                     <span className="tagline"> Bem-vindo ao Ajuda BSI </span>
                                     <h1>{`Aqui você encontra: `} <span className="wrap"> <br /> {text} </span> </h1>
-                                    <p> O curso é foda parceiro. </p>
-                                    
+                                    <p> . </p>
                                 </div>}
                         </TrackVisibility>
                     </Col>

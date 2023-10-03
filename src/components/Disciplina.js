@@ -315,7 +315,7 @@ export const Disciplinas = () => {
           </Col>
         </Row>
       </Container>
-      <img src={colorSharp2} className="background-image-right" alt='Background IMG' />
+      <img src={colorSharp2} className="background-image-right" alt='Background' />
     </section>
   )
 }
