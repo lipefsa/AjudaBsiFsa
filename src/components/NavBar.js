@@ -6,7 +6,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Modal1 from './Modal1';
 import Modal2 from './Modal2';
 import Modal3 from './Modal3';
-import logo from '../assets/img/gadsden.svg';
 import github1 from '../assets/img/github1.svg';
 import linkedin from '../assets/img/linkedin.svg';
 import instagram from '../assets/img/instagram.svg';
@@ -39,7 +38,7 @@ export const NavBar = () => {
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src={logo} alt='Liberdade & Capitalismo' />
+                    
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" >
                     <span className="navbar-toggler-icon"></span>
@@ -60,14 +59,14 @@ export const NavBar = () => {
                         </Nav.Link>
                         <Nav.Link href="#content-contact"
                             className={activeLink === 'content-contact' ? 'active navbar-link' : 'navbar-link'}
-                            onclick={() => onUpdateActiveLink('content-contact')} > Contato
+                            onclick={() => onUpdateActiveLink('content-contact')} > Feedback
                         </Nav.Link>
 
-                        <NavDropdown title="Sobre" id="basic-nav-dropdown" className={activeLink === 'sobre' ? 'active navbar-link' : 'navbar-link'}
+                        <NavDropdown title="Extras" id="basic-nav-dropdown" className={activeLink === 'sobre' ? 'active navbar-link' : 'navbar-link'}
                             onclick={() => onUpdateActiveLink('sobre')}>
 
                             <NavDropdown.Item href="#" className='sobrecurso' onClick={() => setShowModal1(true)}>BSI</NavDropdown.Item>
-                            <NavDropdown.Item href="#" className='sobredisciplinas' onClick={() => setShowModal2(true)} >Outras Disciplinas</NavDropdown.Item>
+                            <NavDropdown.Item href="#" className='sobredisciplinas' onClick={() => setShowModal2(true)} >Contatos dos Professores</NavDropdown.Item>
                             <NavDropdown.Item href="#" className='sobresite' onClick={() => setShowModal3(true)}>Site</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>

@@ -37,6 +37,15 @@ export const Disciplinas = () => {
                 <Nav.Item>
                   <Nav.Link eventKey="five">5º Sem</Nav.Link>
                 </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="sixth">6º Sem</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="seventh">7º Sem</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="eigth">8º Sem</Nav.Link>
+                </Nav.Item>
               </Nav>
               <Tab.Content>
                 <Tab.Pane eventKey="first"> <Row>
@@ -50,7 +59,7 @@ export const Disciplinas = () => {
                             Espere por muitas funções, derivadas, integrais e limites. <br />
                             <strong>Professor:</strong> Osnildo Carvalho. <br />
                             <strong>Feedback:</strong> Aula muito densa de assuntos, porém professor é compreensível. Ele entende e ensina bem, mas também cobra que você aprenda.
-                            As provas são difíceis, então estude pra caramba.
+                            As provas são difíceis, porém justas. Muitas listas de exercícios disponíveis para estudos.
                             
                           </Accordion.Body>
                         </Accordion.Item>
@@ -81,6 +90,26 @@ export const Disciplinas = () => {
                             <strong>Professor:</strong> Jailson Araujo <br />
                             <strong>Feedback:</strong> Não se engane por ser do 1º Semestre. Essa matéria é uma das mais importantes do curso.   <br />
                              O que você aprender aqui vai ser aplicável em qualquer linguagem de programação e na criação de estrutura de dados e outras disciplinas daqui em diante.<br />
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="4">
+                          <Accordion.Header><s>Leitura e Produção Textual </s> </Accordion.Header>
+                          <Accordion.Body>
+                            <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="5">
+                          <Accordion.Header><s>Metodologia da Pesquisa Científica </s> </Accordion.Header>
+                          <Accordion.Body>
+                            <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
                           </Accordion.Body>
                         </Accordion.Item>
                       </Accordion>
@@ -142,6 +171,16 @@ export const Disciplinas = () => {
                             E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
                             </Accordion.Body>
                           </Accordion.Item>
+                          <Accordion.Item eventKey="5">
+                          <Accordion.Header><s>Fundamentos de Sistemas de Informação </s> </Accordion.Header>
+                          <Accordion.Body>
+                            <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
                         </Accordion>
                       </div>
                     }
@@ -201,6 +240,36 @@ export const Disciplinas = () => {
                             E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
                             </Accordion.Body>
                           </Accordion.Item>
+                          <Accordion.Item eventKey="5">
+                          <Accordion.Header><s>Teoria Geral de Sistemas </s> </Accordion.Header>
+                          <Accordion.Body>
+                            <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="6">
+                          <Accordion.Header><s>Matemática Discreta </s> </Accordion.Header>
+                          <Accordion.Body>
+                            <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="7">
+                          <Accordion.Header><s>Inglês I </s> </Accordion.Header>
+                          <Accordion.Body>
+                            <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
                         </Accordion>
                       </div>
                     }
@@ -210,33 +279,33 @@ export const Disciplinas = () => {
                     <div>
                       <Accordion class="accordion">
                         <Accordion.Item eventKey="0">
-                          <Accordion.Header>Banco de Dados I</Accordion.Header>
+                          <Accordion.Header> <s> Banco de Dados I </s> </Accordion.Header>
                           <Accordion.Body>
-                          <strong>Resumo:</strong> A matéria é inicialmente introduzida por meio assuntos como álgebra relacional e modelo relacional. < br/>
-                           Posteriormente a matéria segue utilizando MySQL Workbench explicando estruturas básicas e assuntos pilares, 
-                           como os comandos básicos usados em banco e a lógica para sua construção na prática. <br />
-                            <strong>Professora:</strong> Alessa Oliveira.<br />
-                            <strong>Feedback:</strong> Aulas interativas e em laboratório,
-                             os conteúdos geralmente são cobrados por meio de atividades semanais que te fazem estudar e praticar frequentemente, te fazendo assim ter uma boa linha de aprendizado. <br />
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
-                          <Accordion.Header>Estrutura de Dados</Accordion.Header>
+                          <Accordion.Header><s> Estrutura de Dados </s> </Accordion.Header>
                           <Accordion.Body>
-                          <strong>Resumo:</strong> Uma matéria super importante (e difícil), pois junta muita teoria e prática. <br />
-                           Necessita de forte lógica de programação e conhecimento em alguma linguagem (que você deve adquirir em LP1 e LP2). <br />
-                           Assuntos normalmente são: listas, pilhas, filas, árvores binárias, grafos. <br /> 
-                            <strong>Professora:</strong> Ana Carolina Sokolonski.<br />
-                            <strong>Feedback:</strong> Assuntos são bem densos e não tem como escapar, não é nada impossível mas demanda dedicação e prática de algoritmos ao chegar em casa após a aula.
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
-                          <Accordion.Header>Interface Homem-Máquina</Accordion.Header>
+                          <Accordion.Header><s> Interface Homem-Máquina </s> </Accordion.Header>
                           <Accordion.Body>
-                          <strong>Resumo:</strong> Matéria que aborda a teoria do que seria o Front-End com UX/UI. <br />
-                          Faz pensar no bem estar e experiência dos usuários ao utilizar um sistema. <br />
-                            <strong>Professora:</strong> Alessa Oliveira.<br />
-                            <strong>Feedback:</strong> Disciplina tranquila e teórica. Faça as atividades solicitadas e presta atenção que não vai ter problemas. <br />
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
@@ -249,13 +318,33 @@ export const Disciplinas = () => {
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="4">
-                          <Accordion.Header>Redes de Computadores I</Accordion.Header>
+                          <Accordion.Header><s> Redes de Computadores I </s> </Accordion.Header>
                           <Accordion.Body>
-                          <strong>Resumo:</strong> Uma das disciplinas mais complicadas do curso e com alta taxa de reprovação. <br />
-                          Conteúdos densos e muita teoria. Espere por assuntos como: Camadas da rede (física, enlace, transporte, aplicação, etc), comutação, colisão, padrões ethernet e outros. <br />
-                            <strong>Professor:</strong> Fernando Bulhões. <br />
-                            <strong>Feedback:</strong> Necessita de revisão na grade curricular e metodologia de ensino por parte da docência e diretoria do campus.
-                             Existem muitas reclamações dos estudantes sobre a disciplina ser "injusta". <br /> 
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="5">
+                          <Accordion.Header><s>Inglês II </s> </Accordion.Header>
+                          <Accordion.Body>
+                            <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="6">
+                          <Accordion.Header><s>Seminários Temáticos </s> </Accordion.Header>
+                          <Accordion.Body>
+                            <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
                           </Accordion.Body>
                         </Accordion.Item>
                       </Accordion>
@@ -267,12 +356,13 @@ export const Disciplinas = () => {
                     <div>
                       <Accordion class="accordion">
                         <Accordion.Item eventKey="0">
-                          <Accordion.Header>Banco de Dados II</Accordion.Header>
+                          <Accordion.Header><s> Banco de Dados II </s> </Accordion.Header>
                           <Accordion.Body>
-                          <strong>Resumo:</strong> A professora avança nos assuntos visto em Banco de Dados I e introduz vários novos que possibilitam o trabalho real no dia a dia em empresas com grandes quantidades de informações. < br/>
-                           Você verá: Triggers, Procedures, Views, Inner Joins avançados e outros comandos complexos. <br />
-                            <strong>Professora:</strong> Alessa Oliveira.<br />
-                            <strong>Feedback:</strong> Aulas interativas e em laboratório. Aproveite para treinar bastante e tirar dúvidas. A prova tem o costume de ser difícil. <br />
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
@@ -297,6 +387,190 @@ export const Disciplinas = () => {
                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
                           <Accordion.Header> <s> Redes de Computadores II </s></Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="4">
+                          <Accordion.Header> <s> Sociologia do Trabalho </s></Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                      </Accordion>
+                    </div>
+                  }
+                </Row></Tab.Pane>
+                <Tab.Pane eventKey="sixth"> <Row>
+                  {
+                    <div>
+                      <Accordion class="accordion">
+                        <Accordion.Item eventKey="0">
+                          <Accordion.Header><s> Engenharia de Software </s> </Accordion.Header>
+                          <Accordion.Body> 
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="1">
+                          <Accordion.Header><s> Gestão de Projetos </s> </Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="2">
+                          <Accordion.Header><s> Sistemas Distribuídos </s> </Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="3">
+                          <Accordion.Header><s> Sistemas Embarcados </s> </Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="4">
+                          <Accordion.Header><s> TCC I </s> </Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                      </Accordion>
+                    </div>
+                  }
+                </Row></Tab.Pane>
+                <Tab.Pane eventKey="seventh"> <Row>
+                  {
+                    <div>
+                      <Accordion class="accordion">
+                        <Accordion.Item eventKey="0">
+                          <Accordion.Header><s> Desenvolvimento Mobile </s> </Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="1">
+                          <Accordion.Header><s> Meio Ambiente </s> </Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="2">
+                          <Accordion.Header><s> Projeto e Gerência de Redes </s> </Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="3">
+                          <Accordion.Header><s> Qualidade de Software </s> </Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="4">
+                          <Accordion.Header><s> TCC II </s> </Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                      </Accordion>
+                    </div>
+                  }
+                </Row></Tab.Pane>
+                <Tab.Pane eventKey="eigth"> <Row>
+                  {
+                    <div>
+                      <Accordion class="accordion">
+                        <Accordion.Item eventKey="0">
+                          <Accordion.Header><s> Estágio Supervisionado </s> </Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="1">
+                          <Accordion.Header><s> Governança e Gestão de TI </s> </Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="2">
+                          <Accordion.Header><s> Legislação Aplicada a Informática </s> </Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="3">
+                          <Accordion.Header><s> Segurança e Auditoria de Sistemas </s> </Accordion.Header>
+                          <Accordion.Body>
+                          <strong>NECESSITO DO SEU FEEDBACK! <br />
+                            Preferência se você fez a disciplina semestre passado! <br /></strong>
+                            Detalhes dos assuntos abordados, dificuldades, etc. <br />
+                            Como as provas são feitas e como é a dinâmica da matéria. <br />
+                            E sobre o professor/a: como ele/a é, como dá aula, como avalia, etc.
+                          </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="4">
+                          <Accordion.Header><s> Trabalho Cooperativo Mediado por Computador </s> </Accordion.Header>
                           <Accordion.Body>
                           <strong>NECESSITO DO SEU FEEDBACK! <br />
                             Preferência se você fez a disciplina semestre passado! <br /></strong>

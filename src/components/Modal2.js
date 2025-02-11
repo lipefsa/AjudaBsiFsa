@@ -6,14 +6,12 @@ const Modal2 = ({ show, handleClose }) => {
     <Modal show={show} onHide={handleClose} size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered>
+        
       <Modal.Header closeButton>
-        <Modal.Title>Outras Disciplinas</Modal.Title>
+        <Modal.Title>Contatos dos Professores</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        Não coloquei todas as disciplinas pois algumas são mais simples ou diretas, <br />
-        o que não significa que são menos importantes, por exemplo Inglês. <br />
-        Porém outras mais complexas que estão faltando serão adicionadas
-        em breve quando eu começar a receber feedback de vocês e tiver conteúdo para adicionar. <br />
+        <a href="https://docs.google.com/spreadsheets/d/1AT0JB7lhvKRMm-ETQt0RQigtJyr01XxLS1sALjNqxj0/edit?gid=0#gid=0"> PLANILHA DE CONTATOS</a>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={handleClose}>
