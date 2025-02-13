@@ -17,7 +17,7 @@ export const Footer = () => {
                             <a href="https://www.linkedin.com"> <img src={linkedin} alt='Linkedin Logo' /></a>
                             <a href="https://www.instagram.com/ifba_fsa"> <img src={instagram} alt='Instagram Logo'/></a>
                         </div>
-                        <p>Copyright 2023. All Rights Reserved </p>
+                        <p>Copyright 2025. All Rights Reserved </p>
                     </Col>
                 </Row>
             </Container>
