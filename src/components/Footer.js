@@ -1,5 +1,4 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import logo from '../assets/img/gadsden.svg';
 import linkedin from '../assets/img/linkedin.svg';
 import github1 from '../assets/img/github1.svg';
 import instagram from '../assets/img/instagram.svg';
@@ -10,7 +9,7 @@ export const Footer = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col sm={6}>
-                        <img src={logo} alt="Logo" /> 
+                        
                     </Col>
                     <Col sm={6} className='text-center text-sm-end'>
                         <div className="social-icon">
